@@ -1,0 +1,9 @@
+forum_table (forums defined by the website)
+- Alzheimer's Disease Health (170)
+- Dementia Help (1465)
+- Genetics Help (146)
+- Memory Loss help (1428)
+- Caregivers Help (221)
+
+user_group (forums created by users) exclude if group members is less than 50
+- Alzheimer's Caregivers (alzheimer_s_caregivers) (1 member)
