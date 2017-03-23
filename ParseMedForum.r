@@ -15,7 +15,7 @@ count(MFQ,V4)
 
 # group by data frame id
 splitMFQ <- split(MFQ, MFQ$V4)
-View(splitMFQ)
+
 MLH <- splitMFQ[[1]]
 GH <- splitMFQ[[2]]
 DH <- splitMFQ[[3]]
@@ -41,15 +41,15 @@ count(CH) #210
 
 
 
-#MLH_text <- data.frame(MLH$V1,MLH$V7)
-#GH_text <- data.frame(GH$V1,GH$V7)
-#DH_text <- data.frame(DH$V1,DH$V7)
-#ADH_text <- data.frame(ADH$V1,ADH$V7)
-#CH_text <- data.frame(CH$V1,CH$V7)
+MLH_text <- data.frame(MLH$V1,MLH$V7)
+GH_text <- data.frame(GH$V1,GH$V7)
+DH_text <- data.frame(DH$V1,DH$V7)
+ADH_text <- data.frame(ADH$V1,ADH$V7)
+CH_text <- data.frame(CH$V1,CH$V7)
 
 
 #write.table(MLH_text, file = "MLH_text.txt", sep = "\n")
-#write.table(GH_text, file = "GH_text.txt", sep = "\n")
+write.table(GH_text, file = "GH_text.txt", sep = "&&&")
 #write.table(DH_text, file = "DH_text.txt", sep = "\n")
-#write.table(ADH_text, file = "ADH_text.txt", sep = "\n")
-#write.table(CH_text, file = "CH_text.txt", sep = "\n")
+write.table(ADH_text, file = "ADH_text.txt", sep = "&&&")
+write.table(CH_text, file = "CH_text.txt", sep = "&&&")

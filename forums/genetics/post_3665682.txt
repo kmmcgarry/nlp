@@ -1,0 +1,1 @@
+"An agouti mouse that is heterozygous at the agouti and albino loci (AaBb) is mated to an albino mouse that is heterozygous at the agouti locus(aaBb). Non-albino mice without the dominant agouti allele are black. Epistasis,BB, Bb are goutic and bb is black, aa is albino.What percent of the progeny do you expect to be albino, black, and agouti?"
